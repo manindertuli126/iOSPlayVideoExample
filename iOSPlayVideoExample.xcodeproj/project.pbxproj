@@ -12,6 +12,7 @@
 		0769F6902241AC1B00BF1434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0769F68E2241AC1B00BF1434 /* Main.storyboard */; };
 		0769F6922241AC1D00BF1434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0769F6912241AC1D00BF1434 /* Assets.xcassets */; };
 		0769F6952241AC1D00BF1434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0769F6932241AC1D00BF1434 /* LaunchScreen.storyboard */; };
+		0769F69F2241AD6300BF1434 /* Toronto.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0769F69E2241AD6300BF1434 /* Toronto.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0769F6912241AC1D00BF1434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0769F6942241AC1D00BF1434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0769F6962241AC1D00BF1434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0769F69E2241AD6300BF1434 /* Toronto.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Toronto.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		0769F6892241AC1B00BF1434 /* iOSPlayVideoExample */ = {
 			isa = PBXGroup;
 			children = (
+				0769F69D2241AD4200BF1434 /* Videos */,
 				0769F68A2241AC1B00BF1434 /* AppDelegate.swift */,
 				0769F68C2241AC1B00BF1434 /* ViewController.swift */,
 				0769F68E2241AC1B00BF1434 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				0769F6962241AC1D00BF1434 /* Info.plist */,
 			);
 			path = iOSPlayVideoExample;
+			sourceTree = "<group>";
+		};
+		0769F69D2241AD4200BF1434 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				0769F69E2241AD6300BF1434 /* Toronto.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 				0769F6952241AC1D00BF1434 /* LaunchScreen.storyboard in Resources */,
 				0769F6922241AC1D00BF1434 /* Assets.xcassets in Resources */,
 				0769F6902241AC1B00BF1434 /* Main.storyboard in Resources */,
+				0769F69F2241AD6300BF1434 /* Toronto.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,9 +21,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Video Example" id="iQZ-2M-gPh">
-                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="mjC-57-t3n">
+                        <barButtonItem key="leftBarButtonItem" title="Play Live" id="ONa-Zj-nYv">
                             <connections>
-                                <action selector="btnPlayAction:" destination="BYZ-38-t0r" id="05A-Qc-A1U"/>
+                                <action selector="btnPlayLiveAction:" destination="BYZ-38-t0r" id="BkK-pt-2uh"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Play Local" id="mjC-57-t3n">
+                            <connections>
+                                <action selector="btnPlayLocalAction:" destination="BYZ-38-t0r" id="WgZ-F3-Mxp"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
